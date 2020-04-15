@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52514FD23C709CF009C2777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D52514FC23C709CF009C2777 /* AppDelegate.m */; };
+		D525150323C709CF009C2777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D525150223C709CF009C2777 /* ViewController.m */; };
+		D525150623C709CF009C2777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D525150423C709CF009C2777 /* Main.storyboard */; };
+		D525150823C709D1009C2777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D525150723C709D1009C2777 /* Assets.xcassets */; };
+		D525150B23C709D1009C2777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D525150923C709D1009C2777 /* LaunchScreen.storyboard */; };
+		D525150E23C709D1009C2777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D525150D23C709D1009C2777 /* main.m */; };
+		D56E4507242DAB54003620EF /* iRonPlayerContentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E4506242DAB54003620EF /* iRonPlayerContentInfo.m */; };
+		D56E450A242DD68D003620EF /* iRonTestVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56E4509242DD68D003620EF /* iRonTestVideoListViewController.m */; };
+		D5C2C8822428B881000E726A /* iRonPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C8812428B881000E726A /* iRonPlayer.m */; };
+		D5C2C8852428B97E000E726A /* iRonPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C8842428B97E000E726A /* iRonPlayerView.m */; };
+		D5C2C8882429A6D4000E726A /* iRonPlayerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C8872429A6D3000E726A /* iRonPlayerDownloader.m */; };
+		D5C2C88D2429A9C4000E726A /* iRonPlayerRangeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C88C2429A9C4000E726A /* iRonPlayerRangeModel.m */; };
+		D5C2C8932429E8DC000E726A /* iRonPlayerCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C8922429E8DC000E726A /* iRonPlayerCacheManager.m */; };
+		D5C2C896242B00EA000E726A /* iRonPlayerRangeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C2C895242B00EA000E726A /* iRonPlayerRangeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D52514F823C709CF009C2777 /* iRonCachePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRonCachePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52514FB23C709CF009C2777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D52514FC23C709CF009C2777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D525150123C709CF009C2777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D525150223C709CF009C2777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D525150523C709CF009C2777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D525150723C709D1009C2777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D525150A23C709D1009C2777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D525150C23C709D1009C2777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D525150D23C709D1009C2777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D56E4505242DAB54003620EF /* iRonPlayerContentInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayerContentInfo.h; sourceTree = "<group>"; };
+		D56E4506242DAB54003620EF /* iRonPlayerContentInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerContentInfo.m; sourceTree = "<group>"; };
+		D56E4508242DD68D003620EF /* iRonTestVideoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonTestVideoListViewController.h; sourceTree = "<group>"; };
+		D56E4509242DD68D003620EF /* iRonTestVideoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonTestVideoListViewController.m; sourceTree = "<group>"; };
+		D5C2C8802428B881000E726A /* iRonPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayer.h; sourceTree = "<group>"; };
+		D5C2C8812428B881000E726A /* iRonPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayer.m; sourceTree = "<group>"; };
+		D5C2C8832428B97E000E726A /* iRonPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayerView.h; sourceTree = "<group>"; };
+		D5C2C8842428B97E000E726A /* iRonPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerView.m; sourceTree = "<group>"; };
+		D5C2C8862429A6D3000E726A /* iRonPlayerDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayerDownloader.h; sourceTree = "<group>"; };
+		D5C2C8872429A6D3000E726A /* iRonPlayerDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerDownloader.m; sourceTree = "<group>"; };
+		D5C2C88B2429A9C4000E726A /* iRonPlayerRangeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayerRangeModel.h; sourceTree = "<group>"; };
+		D5C2C88C2429A9C4000E726A /* iRonPlayerRangeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerRangeModel.m; sourceTree = "<group>"; };
+		D5C2C8912429E8DC000E726A /* iRonPlayerCacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iRonPlayerCacheManager.h; sourceTree = "<group>"; };
+		D5C2C8922429E8DC000E726A /* iRonPlayerCacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerCacheManager.m; sourceTree = "<group>"; };
+		D5C2C894242B00EA000E726A /* iRonPlayerRangeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRonPlayerRangeManager.h; sourceTree = "<group>"; };
+		D5C2C895242B00EA000E726A /* iRonPlayerRangeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRonPlayerRangeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52514F523C709CF009C2777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52514EF23C709CF009C2777 = {
+			isa = PBXGroup;
+			children = (
+				D52514FA23C709CF009C2777 /* iRonCachePlayer */,
+				D52514F923C709CF009C2777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52514F923C709CF009C2777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52514F823C709CF009C2777 /* iRonCachePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52514FA23C709CF009C2777 /* iRonCachePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2C87F2428B72C000E726A /* MP4 2.0 */,
+				D52514FB23C709CF009C2777 /* AppDelegate.h */,
+				D52514FC23C709CF009C2777 /* AppDelegate.m */,
+				D5C2C8832428B97E000E726A /* iRonPlayerView.h */,
+				D5C2C8842428B97E000E726A /* iRonPlayerView.m */,
+				D56E4508242DD68D003620EF /* iRonTestVideoListViewController.h */,
+				D56E4509242DD68D003620EF /* iRonTestVideoListViewController.m */,
+				D525150123C709CF009C2777 /* ViewController.h */,
+				D525150223C709CF009C2777 /* ViewController.m */,
+				D525150423C709CF009C2777 /* Main.storyboard */,
+				D525150723C709D1009C2777 /* Assets.xcassets */,
+				D525150923C709D1009C2777 /* LaunchScreen.storyboard */,
+				D525150C23C709D1009C2777 /* Info.plist */,
+				D525150D23C709D1009C2777 /* main.m */,
+			);
+			path = iRonCachePlayer;
+			sourceTree = "<group>";
+		};
+		D5C2C87F2428B72C000E726A /* MP4 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2C8892429A993000E726A /* Model */,
+				D5C2C8802428B881000E726A /* iRonPlayer.h */,
+				D5C2C8812428B881000E726A /* iRonPlayer.m */,
+				D5C2C8862429A6D3000E726A /* iRonPlayerDownloader.h */,
+				D5C2C8872429A6D3000E726A /* iRonPlayerDownloader.m */,
+				D5C2C8912429E8DC000E726A /* iRonPlayerCacheManager.h */,
+				D5C2C8922429E8DC000E726A /* iRonPlayerCacheManager.m */,
+				D5C2C894242B00EA000E726A /* iRonPlayerRangeManager.h */,
+				D5C2C895242B00EA000E726A /* iRonPlayerRangeManager.m */,
+			);
+			path = "MP4 2.0";
+			sourceTree = "<group>";
+		};
+		D5C2C8892429A993000E726A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2C88B2429A9C4000E726A /* iRonPlayerRangeModel.h */,
+				D5C2C88C2429A9C4000E726A /* iRonPlayerRangeModel.m */,
+				D56E4505242DAB54003620EF /* iRonPlayerContentInfo.h */,
+				D56E4506242DAB54003620EF /* iRonPlayerContentInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52514F723C709CF009C2777 /* iRonCachePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D525151123C709D1009C2777 /* Build configuration list for PBXNativeTarget "iRonCachePlayer" */;
+			buildPhases = (
+				D52514F423C709CF009C2777 /* Sources */,
+				D52514F523C709CF009C2777 /* Frameworks */,
+				D52514F623C709CF009C2777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRonCachePlayer;
+			productName = iRonCachePlayer;
+			productReference = D52514F823C709CF009C2777 /* iRonCachePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52514F023C709CF009C2777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = iRon;
+				TargetAttributes = {
+					D52514F723C709CF009C2777 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = D52514F323C709CF009C2777 /* Build configuration list for PBXProject "iRonCachePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52514EF23C709CF009C2777;
+			productRefGroup = D52514F923C709CF009C2777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52514F723C709CF009C2777 /* iRonCachePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52514F623C709CF009C2777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D525150B23C709D1009C2777 /* LaunchScreen.storyboard in Resources */,
+				D525150823C709D1009C2777 /* Assets.xcassets in Resources */,
+				D525150623C709CF009C2777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52514F423C709CF009C2777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D525150323C709CF009C2777 /* ViewController.m in Sources */,
+				D5C2C8822428B881000E726A /* iRonPlayer.m in Sources */,
+				D52514FD23C709CF009C2777 /* AppDelegate.m in Sources */,
+				D5C2C88D2429A9C4000E726A /* iRonPlayerRangeModel.m in Sources */,
+				D5C2C8932429E8DC000E726A /* iRonPlayerCacheManager.m in Sources */,
+				D5C2C896242B00EA000E726A /* iRonPlayerRangeManager.m in Sources */,
+				D525150E23C709D1009C2777 /* main.m in Sources */,
+				D56E4507242DAB54003620EF /* iRonPlayerContentInfo.m in Sources */,
+				D5C2C8882429A6D4000E726A /* iRonPlayerDownloader.m in Sources */,
+				D56E450A242DD68D003620EF /* iRonTestVideoListViewController.m in Sources */,
+				D5C2C8852428B97E000E726A /* iRonPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D525150423C709CF009C2777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D525150523C709CF009C2777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D525150923C709D1009C2777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D525150A23C709D1009C2777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D525150F23C709D1009C2777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D525151023C709D1009C2777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D525151223C709D1009C2777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y46Y2F54T5;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = iRonCachePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRon.iRonCachePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iRonCachePlayer/HLS/iRonCachePlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		D525151323C709D1009C2777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y46Y2F54T5;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = iRonCachePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRon.iRonCachePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iRonCachePlayer/HLS/iRonCachePlayer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52514F323C709CF009C2777 /* Build configuration list for PBXProject "iRonCachePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D525150F23C709D1009C2777 /* Debug */,
+				D525151023C709D1009C2777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D525151123C709D1009C2777 /* Build configuration list for PBXNativeTarget "iRonCachePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D525151223C709D1009C2777 /* Debug */,
+				D525151323C709D1009C2777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52514F023C709CF009C2777 /* Project object */;
+}
